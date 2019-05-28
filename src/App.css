@@ -1,0 +1,142 @@
+.htr{
+color: red;
+}
+
+
+/* описание меню header */
+.menu {
+	height: 100px;
+	width: 100%;
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul {
+  width: 900px;
+  display: flex;
+  justify-content:space-between;
+  list-style: disc;
+}
+
+.menu ul li:hover {
+	color: grey;
+}
+
+
+.about{
+  display: flex;
+  flex-direction: column;
+}
+.shop_img{
+  display: flex;
+  margin-left: 10px;
+  height: 100px;
+	width: 110px;
+
+}
+.logo{
+  display: flex;
+  margin-left: 10px;
+  height: 80px;
+	width: 100px;
+}
+
+.card{
+  border: 2px solid black;
+}
+.marked{
+  border: 5px solid red;
+}
+
+.card-item{
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  margin: 10px;
+}
+.list{
+  display: flex;
+  height: 80vh;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.home{
+  background-image: url('img/cort.jpg');
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hText{
+  width: 1100px;
+}
+
+.Registration{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+/* .tur{
+  display: flex;
+} */
+.homeDown {
+  margin-left: 100px;
+  width: 80px;
+  height: 40px;
+}
+.hHeader {
+  margin:0px;
+}
+.hFirstBlock {
+  margin-top:0px;
+}
+.tur{
+  /* background-image: url('img/tennisBack.jpg'); */
+  width: 100%;
+  height: 100vh;
+
+}
+.turnir ul {
+  display: flex;
+  flex-direction: column;
+  }
+
+.schedule{
+  display: flex;
+  flex-direction: column;
+
+}
+.gallery{
+  display: flex;
+  justify-content: space-between;
+}
+.gallery  img{
+  width: 200px;
+  height: 200px;
+}
+.fullImage{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fullImage button{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+/* .gallery img:active {
+  transform: scale(1.5);
+} */
+
+/* .contactInformation {
+  display: flex;
+  flex-direction: column;
+} */
